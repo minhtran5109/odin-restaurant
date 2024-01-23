@@ -1,4 +1,5 @@
 import './style.css';
+import restaurant_pic from './restaurant.jpg';
 
 const startingComponent = () => {
     const content = document.querySelector("#content");
@@ -21,7 +22,17 @@ const startingComponent = () => {
     contact.textContent = "Contact";
     header.appendChild(contact);
 
+    const landingPicture = new Image();
+    landingPicture.src = restaurant_pic;
+    landingPicture.setAttribute("id","landing-img");
+
+    const description = document.createElement('div');
+    description.setAttribute("id", "description");
+    description.textContent = "It's all about the food. We're on a mission to deliver food straight to your mouth."
+
     content.appendChild(header);
+    content.appendChild(landingPicture);
+    content.appendChild(description);
 }
 
 export default startingComponent;
