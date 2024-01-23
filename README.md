@@ -1,3 +1,3 @@
 # odin-restaurant
 
-A small project mostly focus on practicing webpack use
+A small project mostly focus on practicing webpack
