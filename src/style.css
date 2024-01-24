@@ -1,5 +1,18 @@
+#content {
+    background-image: url("restaurant.jpg");
+    height:  1000px;
+    width: 100%;
+    color: aliceblue;
+}
+
 #header {
     background-color: aquamarine;
     display: flex;
     justify-content: space-evenly;
+}
+
+.header-btn {
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
 }
