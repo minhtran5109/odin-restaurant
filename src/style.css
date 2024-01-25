@@ -16,3 +16,17 @@
     color: black;
     cursor: pointer;
 }
+
+#menu-content {
+    width: 80%;
+    margin: auto;
+    padding-top: 10%;
+}
+
+#menu-content > h1 {
+    font-weight: bolder;
+}
+
+.price {
+    float: right;
+}
