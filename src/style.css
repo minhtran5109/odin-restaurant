@@ -66,3 +66,60 @@ body {
 .price {
     float: right;
 }
+
+#contact-content {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    font-size: 1.2rem;
+}
+
+input[type=text], textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=number], input[type=date] {
+    width: 20%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* resize: vertical; */
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* float: right; */
+    width: 50%;
+    font-size: 1.2em;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.col-25 {
+    /* float: left; */
+    /* width: 25%; */
+    margin-top: 6px;
+}
+  
+.col-75 {
+    /* float: left; */
+    /* width: 75%; */
+    margin-top: 6px;
+}
